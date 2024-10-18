@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nosso-Robo</title>
+    <!-- chamada de ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- chamada de ícones -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- chamada CSS -->
+    <link rel="stylesheet" href="./css/robo.css">
+    <!-- chamada CSS -->
+</head>
+
+<body>
+    <!-- menu -->
+    <nav class="navbar navbar-expand-lg navbar-bg">
+        <div class="container">
+            <a class="navbar-brand btn btn-outline-primary" href="#">RC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link btn-nav" aria-current="page" href="#robocudo">Robocudo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-nav" href="#armas">Arma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-nav" href="#hardware">Hardware</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-nav" aria-current="page" href="./index.html">Voltar à página principal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fim menu -->
+
+    <div class="container my-5">
+        <div class="apresentacao" id="robocudo">
+            <div class="texto">
+                <h1 class="text-primary display-4 fw-bolder">Robocudo</h1>
+                <p class="text-primary">Conheça Robocudo, o robô de quatro rodas que vai levar a emoção das batalhas a
+                    outro nível! Equipado
+                    com uma poderosa arma, o Robocúdo tem uma missão clara: estourar o balão do adversário antes que o
+                    seu seja destruído! Sua agilidade e precisão tornam cada confronto uma experiência eletrizante. Com
+                    um design imponente, todo preto com suas paredes azuis que dão uma aparência robusta, Robocudo exibe
+                    um visual futurista e intimidador. Equipado com para-choques pretos na frente e atrás, além da
+                    presença de LEDs em seu contorno, ele está pronto para enfrentar qualquer impacto enquanto se move
+                    com precisão pela arena.
+                </p>
+            </div>
+            <figure>
+                <img src="./images/robo-1.jpg" alt="Imagem do Robocudo">
+            </figure>
+        </div>
+
+        <div class="armas" id="armas">
+            <div class="texto span-col-2">
+                <h1>Suas Armas</h1>
+                <p>A arma do Robocudo é engenhosamente projetada para maximizar sua eficiência em batalha. Ela consiste
+                    em duas bolas de isopor repletas de agulhas, cuidadosamente fixadas com cola quente. Essas bolas
+                    estão fixadas em hastes de madeira revestidas com uma fita preta, mantendo o visual uniforme e
+                    imponente do robô.
+                    Essa poderosa ferramenta é alimentada por dois motores servos, programados para girar as hastes em
+                    até 180 graus, rotacionando as hastes com as bolas contendo agulhas diretamente contra o balão
+                    adversário.
+                    A combinação de precisão e força torna a arma do Robocudo um elemento decisivo para vencer as
+                    batalhas!
+                </p>
+            </div>
+            <figure class="span-col-2 figurecaption-armas">
+                <img src="./images/robo-2.jpg"
+                    alt="Imagem do Robocudo com a arma ativada">
+                <img src="./images/robo-3.jpg"
+                    alt="Imagem do Robocudo com a arma ativada">
+            </figure>
+        </div>
+
+        <div class="hardware" id="hardware">
+            <h1 class="text-primary display-4 fw-semibold">Hardware</h1>
+            <h2 class="text-primary">Componentes utilizados</h2>
+            <div class="row">
+                <!-- -------------------------------Card 1 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/f96e3fa3-ea48-4384-8491-a35d82cbf1ac.jpg" class="card-img-top card-img"
+                            alt="Imagem Arduino Mega 2560">
+                        <div class="card-body">
+                            <h5 class="card-title">Arduino Mega 2560</h5>
+                            <p class="card-text">Cérebro do Robocudo, o qual recebeu sua devida programação para
+                                locomoção e acionamento das armas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 2 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/3ea0854f-16a4-4f4f-bb8b-8301d358aafc.jpg" class="card-img-top card-img"
+                            alt="Imagem Protoboard">
+                        <div class="card-body">
+                            <h5 class="card-title">Protoboard</h5>
+                            <p class="card-text">Placa de teste que permitiu a montagem dos circuitos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 3 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/98176fe5-a295-4402-8faa-f90ad343bd13.jpg" class="card-img-top card-img"
+                            alt="Imagem LED RGB">
+                        <div class="card-body">
+                            <h5 class="card-title">LED RGB</h5>
+                            <p class="card-text">LED responsável por nos indicar em qual estágio de funcionamento o robô
+                                se
+                                encontra</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 4 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/drive-motor.jpg" class="card-img-top card-img" alt="Drive de Motor">
+                        <div class="card-body ">
+                            <h5 class="card-title">Drive de Motor</h5>
+                            <p class="card-text">Controla a corrente e a tensão enviadas aos motores</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 5 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/transistores.jpg" class="card-img-top card-img" alt="Tansistor">
+                        <div class="card-body ">
+                            <h5 class="card-title">Tansistor</h5>
+                            <p class="card-text">Amplifica e bloqueia a passagem de corrente elétrica</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 6 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/mf.jpg" class="card-img-top card-img" alt="Jumper">
+                        <div class="card-body ">
+                            <h5 class="card-title">Jumper</h5>
+                            <p class="card-text">Imterruptores que permitem a passagem de uma corrente</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 7 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/servo.jpg" class="card-img-top card-img" alt="Servo motor">
+                        <div class="card-body ">
+                            <h5 class="card-title">Servo Motor</h5>
+                            <p class="card-text">Eles permitem a rotação das temidas armas do Robocudo</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 8 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/módulo.jpg" class="card-img-top card-img" alt="Módulo  Bluethoth">
+                        <div class="card-body ">
+                            <h5 class="card-title">Módulo Bluethoth</h5>
+                            <p class="card-text">Permite a conexão para controlar o Robocudo</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 9 --------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/motot-roda.jpg" class="card-img-top card-img"
+                            alt="Motor BC#V-6V de eixo duplo">
+                        <div class="card-body">
+                            <h5 class="card-title">Motor BC#V-6V de eixo duplo</h5>
+                            <p class="card-text">Permite a movimentação das rodas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 10 -------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/sensor.jpg" class="card-img-top card-img" alt="Chave de fim de curso">
+                        <div class="card-body ">
+                            <h5 class="card-title">Chave de fim de curso</h5>
+                            <p class="card-text">Permite a ativação das armas</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 11 -------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/barra.jpg" class="card-img-top card-img" alt="Barra de pinos">
+                        <div class="card-body ">
+                            <h5 class="card-title">Barra de pinos</h5>
+                            <p class="card-text">Conecta placas e escudos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- -------------------------------Card 12 -------------------------------->
+                <div class="col-md-6 col-lg-4 col-xl-3 my-3">
+                    <div class="card">
+                        <img src="./images/resistor.jpg" class="card-img-top card-img" alt="Resistor">
+                        <div class="card-body ">
+                            <h5 class="card-title">Resistor</h5>
+                            <p class="card-text">Protege sensíveis componentes eletrônicos</p>
+                        </div>
+                    </div>
+             
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
